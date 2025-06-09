@@ -1,0 +1,71 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: darkgrey;
+    height: 100%;
+    margin: 0;
+}
+
+
+.wrapper {
+    min-height: 100vh; /* 100% da altura da viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFEC9;
+    padding: 1% 17%;
+    position: relative;
+}
+
+    .cabecalho .home-icon {
+        position: static;
+        left: 10px;
+        text-decoration: none;
+        color: blue;
+    }
+
+    .cabecalho .home-icon:hover {
+        background-color: burlywood;
+    }
+
+.cabecalho_titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #036200;
+
+}
+
+.cabecalho .close {
+    position: static;
+    right: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.icone-hover {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+    .icone-hover:hover {
+        transform: scale(1.2);
+    }
+
+.bgGray {
+    background-color: lightgray;
+}
+
+label {
+    font-weight: bold;
+}
